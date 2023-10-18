@@ -1,3 +1,5 @@
-import CharacterData from "./types/types";
-import Character from "./components/Character/Character";
-import King from "./components/King/King";
+import App from "./components/App/App.js";
+
+const parentElement = document.querySelector(".app")!;
+const container = new App("div", parentElement, "container");
+container.render();
