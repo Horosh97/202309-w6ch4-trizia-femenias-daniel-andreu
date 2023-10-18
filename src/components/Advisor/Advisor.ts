@@ -1,5 +1,5 @@
 import Character from "../Character/Character";
-import type CharacterData from "../../types/types";
+import { type CharacterData } from "../../types/types";
 
 export class Advisor extends Character {
   advises;
