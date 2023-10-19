@@ -1,4 +1,4 @@
-import type CharacterData from "../../types/types";
+import { type CharacterData } from "../../types/types.js";
 
 abstract class Character {
   isAlive = true;
