@@ -1,5 +1,5 @@
-import type Character from "../components/Character/Character";
-import { type Fighter } from "../components/Fighter/Fighter";
+import type Character from "../components/Character/Character.js";
+import { type Fighter } from "../components/Fighter/Fighter.js";
 
 export interface CharacterData {
   name: string;
