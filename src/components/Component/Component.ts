@@ -1,6 +1,6 @@
 abstract class Component {
   protected readonly element: Element;
-  private readonly parentElement: Element;
+  protected readonly parentElement: Element;
 
   constructor(tagName: string, parentElement: Element, className: string) {
     this.element = document.createElement(tagName);
