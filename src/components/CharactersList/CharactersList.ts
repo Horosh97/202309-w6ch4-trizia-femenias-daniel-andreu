@@ -1,6 +1,6 @@
-import characters from "../../data/Characters";
-import CharacterCard from "../CharacterCard/CharacterCard";
-import Component from "../Component/Component";
+import characters from "../../data/characters.js";
+import CharacterCard from "../CharacterCard/CharacterCard.js";
+import Component from "../Component/Component.js";
 
 class CharactersList extends Component {
   public populate(): void {
